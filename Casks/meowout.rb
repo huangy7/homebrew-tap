@@ -2,10 +2,10 @@ cask "meowout" do
   version "1.9.1"
   
   if Hardware::CPU.intel?
-    sha256 "1692f163f414c6103f21a29673234bd7130ef201d112773eb5117a3dc4948d05"
+    sha256 "ea72e465e89128561c4e38ebffdeeb414ce5e052287d4e7988d46c02df458b87"
     url "https://github.com/huangy7/MeowOut/releases/download/v#{version}/MeowOut-x86_64.dmg"
   else
-    sha256 "fef07d6ba67d3395c67bada7cd6c7f46697975086a34f27b6666a5d9dda182b4"
+    sha256 "feac8b416a2afb312741c79fd01981df9bd834f41e987566b813604ead1b344f"
     url "https://github.com/huangy7/MeowOut/releases/download/v#{version}/MeowOut-arm64.dmg"
   end
 
