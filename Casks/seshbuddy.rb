@@ -1,11 +1,11 @@
 cask "seshbuddy" do
-  version "0.1.1"
+  version "0.1.2"
 
   if Hardware::CPU.intel?
-    sha256 "2165f6f46d0f06b29a5a0c0b8520c9e8daba5eea9be3db8cadc2231e882088af"
+    sha256 "77e5894dfc935e9c9f7c848f7a18d864c27e57fa1664f43e48a0fc26a24279f4"
     url "https://github.com/huangy7/seshbuddy/releases/download/v#{version}/SeshBuddy_x64.dmg"
   else
-    sha256 "7f3d9d8617da8c011de94cfdcb93090d84350eb9532145b8abee865a57e7d8d6"
+    sha256 "9f9bcb2d3f6b85d80044ddac5260551c5fcd9f42426515596aaafe0222106fac"
     url "https://github.com/huangy7/seshbuddy/releases/download/v#{version}/SeshBuddy_aarch64.dmg"
   end
 
