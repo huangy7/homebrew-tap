@@ -1,5 +1,6 @@
 # huangy7's Homebrew Tap
 
+
 这是 [huangy7](https://github.com/huangy7) 的个人 Homebrew 软件源 (Tap)，用于分发个人开发的 macOS 应用。
 
 ## 包含的软件

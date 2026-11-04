@@ -1,11 +1,11 @@
 cask "lokii" do
-  version "0.1.1"
+  version "0.1.8"
 
   if Hardware::CPU.intel?
-    sha256 "c4ac59725bbaf9779ad40490b2b5290a621bbc0827ee7cfce071b8d062342593"
+    sha256 "ce4ba06ab48dfd98b16dbafd39557de31e593f9ec2fa203fac1512922ce6feb7"
     url "https://github.com/huangy7/lokii/releases/download/v#{version}/Lokii-x86_64.dmg"
   else
-    sha256 "291a53f9a222ce532a6b8949b3c6400621cefc90048165730c82fde332ca71bd"
+    sha256 "6691391c110e9be5b3e5e265af08a222094902ecc7a19215a30c2b1791813ad3"
     url "https://github.com/huangy7/lokii/releases/download/v#{version}/Lokii-arm64.dmg"
   end
 
